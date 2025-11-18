@@ -1,0 +1,35 @@
+# server/.gitignore
+
+# Dependencies
+/node_modules
+
+# Environment variables
+# ไฟล์เก็บรหัสผ่าน, Database URL, Key ลับ
+.env
+.env.*
+
+# Firebase Admin Key (สำคัญมาก!!!)
+# ห้ามอัปโหลดไฟล์ Key ที่โหลดมาจาก Firebase เด็ดขาด
+*firebase_secret.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.vscode
+.idea
+465a-96v        
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini

@@ -1,0 +1,36 @@
+# Dependencies
+/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+firebase-debug.log*
+firestore-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Firebase Emulators
+.firebase/
+database-debug.log
+storage-debug.log
+ui-debug.log
+
+# Editor directories and files
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
